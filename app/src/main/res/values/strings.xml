@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lab2</string>
+    <string name="app_name">Lab3</string>
     <string name="hello_message">Look at my GUI</string>
     <string name="ButtonText">Click Here!</string>
     <string name="checkbox">Check this out!</string>
@@ -7,4 +7,19 @@
     <string name="image_description">Picture of the Canadian Flag</string>
     <string name="switch_text">Switch on/off</string>
     <string name="edit_text">type here</string>
+
+    <!-- LAB 3 KEY VALUE NAMES -->
+    <string name="email">com.example.androidlabs.email</string>
+    <string name="password">com.example.androidlabs.password</string>
+
+    <!-- LAB 3 STRING VALUES-->
+    <string name="login">login</string>
+    <string name="enter_password">Enter your password: </string>
+    <string name="your_profile">Your profile</string>
+    <string name="your_name">Your name: </string>
+    <string name="enter_name">Enter your name: </string>
+    <string name="your_email">Your email: </string>
+    <string name="enter_email">Enter your email: </string>
+    <string name="your_picture">Your picture: </string>
+
 </resources>

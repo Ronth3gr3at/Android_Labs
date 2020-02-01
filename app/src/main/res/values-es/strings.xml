@@ -8,4 +8,16 @@
     <string name="image_description">Picture of the Dominican Flag</string>
     <string name="switch_text">Encender / apagar</string>
     <string name="edit_text">escriba aquí</string>
+    <string name="email">com.example.androidlabs.email</string>
+    <string name="password">com.example.androidlabs.password</string>
+
+    <!-- LAB 3 -->
+    <string name="login">Ingrese a su cuenta</string>
+    <string name="enter_password">Ingresa tu contraseña</string>
+    <string name="your_profile">Tu perfil</string>
+    <string name="your_name">Tu nombre: </string>
+    <string name="enter_name">introduzca su nombre: </string>
+    <string name="your_email">Tu correo electrónico: </string>
+    <string name="enter_email">Introduce tu correo electrónico: </string>
+    <string name="your_picture">su foto:  </string>
 </resources>
