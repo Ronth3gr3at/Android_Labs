@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
@@ -17,6 +18,7 @@ private static final int REQUEST_IMAGE_CAPTURE = 1;
 static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
 private String functionName;
 private EditText emailEditText;
+private Button chatroomButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //init
@@ -26,12 +28,18 @@ private EditText emailEditText;
         //VIEWS
         imageButton = findViewById(R.id.image_button);
         emailEditText = findViewById(R.id.email_profile);
+        chatroomButton = findViewById(R.id.chat_button);
 
         //OnClick Listeners
         imageButton.setOnClickListener( new View.OnClickListener() {
             public void onClick(View v) {
                 dispatchTakePictureIntent();
             }
+        });
+
+        chatroomButton.setOnClickListener( clickListener -> {
+            Intent goToChatRoom = new Intent(ProfileActivity.this, ChatRoomActivity.class);
+            startActivity(goToChatRoom);
         });
 
 

@@ -49,5 +49,11 @@
         android:layout_height="wrap_content"
         android:src="@android:drawable/picture_frame"
         android:contentDescription="@string/image_description"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_button"
+        android:text="@string/goto_chat"
+        android:textSize="20sp"/>
 
 </LinearLayout>
