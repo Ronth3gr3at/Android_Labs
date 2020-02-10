@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lab Quatro</string>
+    <string name="app_name">Lab Cinco</string>
     <string name="hello_message">Hola Mundo!</string>
     <string name="ButtonText">soy una button</string>
     <string name="checkbox">Mira!</string>
